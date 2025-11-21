@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { UserRole } from '../types';
 import { User, Menu as MenuIcon, MapPin, LogOut, Moon, Sun } from 'lucide-react';
@@ -66,7 +65,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentUserRole, onNavigate, onL
                </div>
             ) : (
               <button 
-                onClick={() => onNavigate('login')}
+                onClick={() => onNavigate('admin-login')}
                 className="bg-[#00AA6C] text-white px-5 py-2 rounded-full font-bold text-sm hover:bg-[#008f5a] transition shadow-sm"
               >
                 Iniciar Sesión
