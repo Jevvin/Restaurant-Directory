@@ -1,0 +1,9 @@
+{
+  "name": "GastroGuide",
+  "description": "Directorio de restaurantes premium con sistema de reservas, reseñas, preguntas y respuestas, y galerías compartidas. Estilo TripAdvisor/OpenTable.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
